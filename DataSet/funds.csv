@@ -1,0 +1,6 @@
+fund_name,assets,balance,nav,expense_ratio,exit_load,manager_id,DOL
+Equity Growth Fund,10000000,8500000,23.45,1.2,0.5,1,01-01-2023
+Balanced Fund,7500000,6300000,17.89,1.5,0.3,1,02-01-2023
+Fixed Income Fund,5000000,4800000,10.25,0.8,0.2,1,03-01-2023
+Small Cap Fund,2000000,1800000,35.67,1.8,0.6,1,04-01-2023
+Large Cap Fund,12000000,10500000,42.1,1,0.4,1,05-01-2023

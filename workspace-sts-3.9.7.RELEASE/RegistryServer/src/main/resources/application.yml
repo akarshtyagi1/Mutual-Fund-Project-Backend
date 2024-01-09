@@ -1,0 +1,11 @@
+# HTTP (tomcat) port no
+server:
+  port: 4567
+
+# Configure this Discovery/registry server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false

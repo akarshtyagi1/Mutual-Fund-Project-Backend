@@ -1,0 +1,24 @@
+# HTTP (tomcat) port no
+server:
+  port: 6992
+  
+#Specify the details about Eureka server first
+eureka:
+  client:
+    service-url:
+       defaultZone : http://localhost:4567/eureka
+
+#Spring related properties
+#the name with which this applicaiton should be reigstered in Eureka server
+spring:
+  application:
+    name: Funds-microservice
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: mutualfunds
+    password: zerodha
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle12cDialect
